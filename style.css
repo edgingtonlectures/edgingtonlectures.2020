@@ -1,0 +1,119 @@
+
+a:link,
+a:hover,
+a:visited
+{ color:#333;
+  text-decoration:underline; }        
+a.plain:link,
+a.plain:hover,
+a.plain:visited
+{ color:#000;
+  text-decoration:none; }
+body
+{ background-color:#fff;
+  color:#000;
+  font-family:"Roboto",serif;
+  font-size:13px;
+  margin:30px auto 80px;
+  padding:0;
+  width:900px; }
+div#body
+{ margin:0 0 80px;
+  padding:10px 0 0;
+  width:900px; } 
+div#head
+{ border-bottom:1px solid;
+  border-color:#888;
+  margin:0 auto;
+  padding-bottom:10px;
+  position:relative; }
+div#nav
+{ font-size:13px;
+  letter-spacing:0.65px;
+  padding-bottom:5px;
+  padding-top:12px; }
+h1
+{ background-color:#fff;
+  color:#000;
+  font-family:"Roboto Black",sans-serif;
+  font-size:40px;
+  letter-spacing:0.2px;
+  margin:0px;
+  padding:10px 0 0;
+  word-spacing:6px; }
+h2
+{ background-color:#fff;
+  color:#000;
+  font-family:"Roboto Medium",sans-serif;
+  font-size:18px;
+  letter-spacing:0.07px;
+  max-width:500px;
+  padding:0 0 0; }
+h3
+{ background-color:#fff;
+  color:#000;
+  display:inline;
+  font-size:15px;
+  font-style:italic;
+  font-weight:normal;
+  margin:0;
+  max-width:500px;
+  padding:0; }
+img.right
+{ float:right; }
+li
+{ background-color:#fff;
+  color:#333;
+  line-height:1.7;
+  margin:0;
+  max-width:550px;
+  padding:0; }
+li.nav
+{ display:inline-block;
+  line-height:1; }
+li.nav:before
+{ content:'/';
+  padding:0 5px 0; }
+li.nav:first-child:before
+{ content:'';
+  padding:0; }
+p
+{ background-color:#fff;
+  color:#333;
+  line-height:1.5;
+  max-width:533px;
+  padding:0; }
+span
+{ color:#ccc; }
+table
+{ border:0;
+  padding:0;
+  margin:0; }
+td
+{ background-color:#fff;
+  border:0;
+  color:#333;
+  padding:6px 15px 0 0;
+  margin:0;
+  vertical-align:top; }
+td.day
+{ background-color:#fff;
+  border:0;
+  color:#333;
+  padding:0;
+  margin:0;
+  vertical-align:top; }
+tr
+{ border:0;
+  padding:0;
+  margin:0; }
+ul
+{ margin-top:0;
+  max-width:526px;
+  padding-left:24px;
+  padding-top:0;
+  padding-bottom:9px; }
+ul.nav
+{ margin:0;
+  max-width:none;
+  padding:0; }
