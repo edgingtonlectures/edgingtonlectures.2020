@@ -3,7 +3,7 @@ a:link,
 a:hover,
 a:visited
 { color:#333;
-  text-decoration:underline; }        
+  text-decoration:underline; }
 a.plain:link,
 a.plain:hover,
 a.plain:visited
@@ -20,7 +20,7 @@ body
 div#body
 { margin:0 0 80px;
   padding:10px 0 0;
-  width:900px; } 
+  width:900px; }
 div#head
 { border-bottom:1px solid;
   border-color:#888;
@@ -32,6 +32,9 @@ div#nav
   letter-spacing:0.65px;
   padding-bottom:5px;
   padding-top:12px; }
+div#previous {
+  padding-bottom: 10px;
+}
 h1
 { background-color:#fff;
   color:#000;
